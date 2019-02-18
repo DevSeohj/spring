@@ -1,0 +1,81 @@
+/*font*/
+@font-face{
+	font-family: 'HoonPinkpungchaR';
+	font-style:normal;
+	font-weight: 300;
+	src: url('${pageContext.servletContext.contextPath}/fonts/HoonPinkpungchaR.otf') format('otf'),
+}
+
+body{
+	font-family: HoonPinkpungchaR
+}
+
+/* basic */
+.box-center{
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+/*  Main */
+div.main{
+	width:970px;
+	background: rgb(105, 105, 105);
+}
+/*  Header */
+div.header{
+	height:90px;
+	padding-top:40px;
+	background: #353535;
+	color: white;
+}
+div.header span{
+	margin-left: 20px;
+}
+div.header h1{
+	font-size:42px;
+}
+div.header a.header-logo-link{
+	height:66px;
+	width:inherit;
+	display:block;
+	position:absolute;
+}
+/*  Content */
+div.content{
+	height:530px;
+	background: rgb(123, 123, 123);
+	display: flex;
+}
+div.content div.left_box{
+	flex: 1;
+}
+div.content div.center_box{
+	flex: 3;
+}
+div.content div.right_box{
+	flex: 1;
+}
+
+div.menu{
+	background: white;
+	height:20%;
+	display: flex;
+	flex:3;
+}
+div.menu span.menu_title{
+	font-size: 30px;
+	margin-left: 10px;
+	padding-top:25px;
+}
+div.menu div.menu_icon{
+	flex: 1;
+}
+
+div.center_box{
+	background: #A88219;
+}
+
+/*  Footer */
+div.footer{
+	min-height:25px;
+	background: #353535;
+}
